@@ -1,0 +1,94 @@
+
+h4{
+    color:rgb(75, 36, 205);
+    font-size: 3rem;
+}
+.skills-section{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'grid-col-1 grid-col-2 grid-col-3 grid-col-4';
+    gap: 10px;
+}
+
+.first-col{
+    grid-area: grid-col-1;
+}
+
+.second-col{
+    grid-area: grid-col-2;
+}
+
+.third-col{
+    grid-area: grid-col-3;
+}
+
+.forth-col{
+    grid-area: grid-col-4;
+}
+
+.image{
+    height: 12rem;
+    width:12rem;
+    object-fit: contain;
+}
+
+.skills-section > div {
+        margin-top: 5rem;
+        justify-content:space-around;
+    
+}
+
+@media screen and ( max-width: 768px) {
+    .skills-section{
+    grid-template-areas:
+    'grid-col-1 grid-col-2'
+    'grid-col-3 grid-col-4'
+    ;
+     gap:30px;
+    }
+
+    .skills-section > div {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    h4{
+        margin-left: 3rem;
+    }
+
+
+    .skills-section{
+        grid-template-areas: 
+        'grid-col-1'
+        'grid-col-2'
+        'grid-col-3' 
+        'grid-col-4'
+        ;
+        gap:0;
+        margin: 0;
+    }
+
+    .skills-section > div {
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .css-img{
+        margin-left: 3rem;
+    }
+    .js-img{
+        margin-right: 1.5rem;
+    }
+}
