@@ -2,6 +2,7 @@ import "./NavBar.css";
 import { useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import ContentStrategies from "./../pages/ContentStrategies";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -14,9 +15,10 @@ function Navbar() {
         👨‍🍳 Cooking Code
       </Link>
       <div className="menu-icon"></div>
-      <ul className={click ? "nav-menu activated" : "nav-menu"}>
+      <ul className={click ? "nav-menu activated" : "nav-menu deactivated"}>
         <CustomLink to="About">About</CustomLink>
         <CustomLink to="Skills">Skills</CustomLink>
+        <CustomLink to="ContentStrategies">Content Strategies</CustomLink>
         <CustomLink to="Services">Services</CustomLink>
         <CustomLink to="Projects">Projects</CustomLink>
         <CustomLink to="Contact">Contact</CustomLink>

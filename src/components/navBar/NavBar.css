@@ -68,24 +68,29 @@ body{
 
   @media screen and (max-width: 1024px) {
   
-  .nav-menu {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    right:-100%;
-    opacity: 1;
-    transition: all 1.5s ease;
+  .nav-menu {    
+        position: absolute;
+        width: 100%;
+        top: 55px;
+        left: 0;
+        right: 100;
+        flex-direction: column;
+        box-shadow: 3px 2px 3px rgb(0, 0, 0.25);
+        border-radius: 10px;
+        overflow-y: hidden;
+     
   }
 
   .nav-menu.activated {
     background: #0f7aec;
     left: 0;
     opacity: 1;
-    transition: all 0.7s ease;
     z-index: 1;
+  }
+
+  .nav-menu.deactivated{
+    display: none;
+        
   }
 
   
