@@ -8,7 +8,6 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => false;
-  console.log("close");
   return (
     <nav className="nav">
       <Link to="/" className="site-title" onClick={closeMobileMenu}>

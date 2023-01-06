@@ -1,10 +1,10 @@
 import "./Services.css";
 
-import lupaImg from "../../assets/lupaImg.png";
-import globeImg from "../../assets/globeImg.png";
-import screenImg from "../../assets/screenImg.png";
-import settingImg from "../../assets/settingImg.png";
-import statisticsImg from "../../assets/statisticsImg.png";
+import lupaImg from "../../../assets/lupaImg.png";
+import globeImg from "../../../assets/globeImg.png";
+import screenImg from "../../../assets/screenImg.png";
+import settingImg from "../../../assets/settingImg.png";
+import statisticsImg from "../../../assets/statisticsImg.png";
 
 function Services() {
   return (

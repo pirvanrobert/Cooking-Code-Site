@@ -1,0 +1,136 @@
+.slider{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-img{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.right-arrow{
+    position:absolute;
+    top:50%;
+    right: 2rem;
+    font-size: 3rem;
+    color:#000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow{
+    position:absolute;
+    top:50%;
+    left: 2rem;
+    font-size: 3rem;
+    color:#000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform:scale(1.08)
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    margin-right: 5rem;
+}
+    
+ @media screen and (max-width: 1024px){
+    .slider-img{
+        width: 40rem;
+        height: 30rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .slider-img{
+        width: 35rem;
+        height: 30rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .slider-img{
+        width: 30rem;
+        height: 25rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .slider-img{
+        width: 25rem;
+        height: 15rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 595px){
+    .slider-img{
+        width: 20rem;
+        height: 15rem;
+        border-radius: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width:510px){
+    .slider-img{
+        width: 17rem;
+        height: 12rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .slider-img{
+        width: 14rem;
+        height: 9rem;
+        border-radius: 1rem;
+    }
+
+    .right-arrow{
+        position:absolute;
+        top:47%;
+     
+    }
+    
+    .left-arrow{
+        position:absolute;
+        top:47%;
+       
+    }
+
+}
+
+@media screen and (max-width: 405px){
+    .slider-img{
+        width: 11rem;
+        height: 8rem;
+        border-radius: 1rem;
+    }
+
+
+
+}

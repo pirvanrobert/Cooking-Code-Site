@@ -3,7 +3,7 @@ h4{
     color:rgb(75, 36, 205);
     font-size: 3rem;
 }
-.skills-section{
+.skills-section-display{
     height: 50vh;
     display: grid;
     grid-template-areas: 
@@ -28,7 +28,7 @@ h4{
     grid-area: grid-col-4;
 }
 
-.image{
+.img-style{
     height: 12rem;
     width:12rem;
     object-fit: contain;

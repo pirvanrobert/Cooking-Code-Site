@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/navBar/NavBar";
-import AllPages from "./components/pages/AllPages";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Projects from "./components/pages/Projetcs";
-import Services from "./components/pages/Services";
-import Skills from "./components/pages/Skills";
-import ContentStrategies from "./components/pages/ContentStrategies";
+import AllPages from "./components/pages/AllPages/AllPages";
+import Home from "./components/pages/Hom/Home";
+import About from "./components/pages/About/About";
+import Contact from "./components/pages/Contact/Contact";
+import Projects from "./components/pages/Projec/Projects";
+import Services from "./components/pages/Servicies/Services";
+import Skills from "./components/pages/Skills/Skills";
+import ContentStrategies from "./components/pages/ContentStategies/ContentStrategies";
 
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";

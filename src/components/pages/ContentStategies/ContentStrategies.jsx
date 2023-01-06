@@ -1,8 +1,8 @@
 import React from "react";
 import "./ContentStrategies.css";
-import ContentStrategiesImgLaptop from "../../assets/ContentStrategiesImgLaptop.png";
-import ContentStrategiesImgBuilding from "../../assets/ContentStrategiesImgBuilding.png";
-import ContentStrategiesImgMeeting from "../../assets/ContentStrategiesImgMeeting.png";
+import ContentStrategiesImgLaptop from "../../../assets/ContentStrategiesImgLaptop.png";
+import ContentStrategiesImgBuilding from "../../../assets/ContentStrategiesImgBuilding.png";
+import ContentStrategiesImgMeeting from "../../../assets/ContentStrategiesImgMeeting.png";
 
 function ContentStrategies() {
   return (
