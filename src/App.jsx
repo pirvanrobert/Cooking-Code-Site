@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navBar/NavBar";
+import AllPages from "./components/pages/AllPages";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
@@ -15,13 +16,14 @@ function App() {
   return (
     <>
       <Navbar />
+
       <div className="container">
         <Routes>
+          <Route exact path="/" element={<AllPages />} />
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/ContentStrategies" element={<ContentStrategies />} />
-
           <Route path="/Services" element={<Services />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />

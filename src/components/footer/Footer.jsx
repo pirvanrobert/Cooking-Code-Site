@@ -12,6 +12,9 @@ function Footer(props) {
       <div className="footer">
         <div className="footer-first2">
           <div className="footer-column">
+            <div>
+              <h1>👨‍🍳 Cooding Code</h1>
+            </div>
             <div className="footer-first-column">
               <a href="tel://+40744862118">
                 <img src={mobile} className="mobile" alt="" />
@@ -47,21 +50,15 @@ function Footer(props) {
             <Link className="remove-format-footer" to="/About-us">
               <p>About Us</p>
             </Link>
-            <Link className="remove-format-footer" to="/Contact">
-              <p>Contact</p>
-            </Link>
           </div>
         </div>
         <div className="footer-first2">
           <div className="footer-second-column">
+            <Link className="remove-format-footer" to="/Contact">
+              <p>Contact</p>
+            </Link>
             <Link className="remove-format-footer" to="/Clients">
               <p>Testimonials</p>
-            </Link>
-            <Link className="remove-format-footer">
-              <p>Legal Stuff</p>
-            </Link>
-            <Link className="remove-format-footer">
-              <p>Privacy</p>
             </Link>
           </div>
           <div className="footer-last-column">

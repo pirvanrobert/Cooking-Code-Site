@@ -36,7 +36,7 @@ span, h3{
 
 @media screen and (max-width: 1024px) {
     .description-section{
-        height: 80%;
+        min-height:160vh;
         top:5rem;
         position: relative;
         display: flex;
@@ -49,4 +49,8 @@ span, h3{
 }
 
 
-
+@media screen and (max-width: 768px) {
+    .description-section{
+        min-height: 180vh;
+    }
+}

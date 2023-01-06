@@ -3,11 +3,10 @@ import "./ContentStrategies.css";
 import ContentStrategiesImgLaptop from "../../assets/ContentStrategiesImgLaptop.png";
 import ContentStrategiesImgBuilding from "../../assets/ContentStrategiesImgBuilding.png";
 import ContentStrategiesImgMeeting from "../../assets/ContentStrategiesImgMeeting.png";
-import ContentStrategiesImgDots from "../../assets/ContentStrategiesImgDots.png";
 
 function ContentStrategies() {
   return (
-    <section className="row content-container section-cards">
+    <section className="row section-cards ">
       <div>
         <h2 className="main-header">Contents Strategies</h2>
         <p className="header-paragraph">
@@ -57,10 +56,6 @@ function ContentStrategies() {
               <h3>Success Steps For Your Personal Or Business</h3>
             </div>
           </div>
-        </div>
-
-        <div className="row content-container">
-          <img className="dots-img" src={ContentStrategiesImgDots} alt="Dots" />
         </div>
       </div>
     </section>

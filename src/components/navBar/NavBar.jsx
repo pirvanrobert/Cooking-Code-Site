@@ -2,13 +2,13 @@ import "./NavBar.css";
 import { useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import ContentStrategies from "./../pages/ContentStrategies";
 
 function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => false;
+  console.log("close");
   return (
     <nav className="nav">
       <Link to="/" className="site-title" onClick={closeMobileMenu}>
