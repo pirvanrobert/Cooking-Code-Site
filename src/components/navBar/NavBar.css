@@ -22,8 +22,11 @@ body{
     padding: 0 1rem;
 }
 
-.site-title{
+
+#site-title-id{
     font-size: 2rem;
+    color:  rgb(4, 255, 50);
+    
 }
 
 .nav ul{
@@ -35,7 +38,7 @@ body{
 }
 
 .nav a{
-   color:  rgb(4, 255, 50);
+   color:  #FFF;
     text-decoration: none;
     height:100%;
     display: flex;
@@ -47,7 +50,7 @@ body{
 }
 
 .nav li:hover{
-    background-color: #777;
+    background-color:  rgb(4, 255, 50);
 }
 
 .menu-icon{
@@ -70,10 +73,12 @@ body{
   
   .nav-menu {    
         position: absolute;
+        display: block;
+        list-style: none;
         width: 100%;
         top: 55px;
         left: 0;
-        right: 100;
+        transition: all 0.5s ease-out;
         flex-direction: column;
         box-shadow: 3px 2px 3px rgb(0, 0, 0.25);
         border-radius: 10px;

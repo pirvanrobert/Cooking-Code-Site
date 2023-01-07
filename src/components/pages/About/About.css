@@ -15,19 +15,18 @@
 }
 .photo{
     border-radius: 200px ;
-    height: auto;
     object-fit: contain;
     width: 70%;
 }
 
 .about-me{
-    color: rgb(75, 36, 205);
+    color: #FFF;
     font-style: italic;
     font-size: 1.5rem;
 }
 
 span, h3{
-    color: black;
+    color:  rgb(4, 255, 50);
     font-weight: bold;
     font-style: normal;
 }
@@ -37,20 +36,15 @@ span, h3{
 @media screen and (max-width: 1024px) {
     .description-section{
         min-height:160vh;
-        top:5rem;
-        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         object-fit: contain;
         width: 100%;    }
+
       
 }
 
 
-@media screen and (max-width: 768px) {
-    .description-section{
-        min-height: 180vh;
-    }
-}
+

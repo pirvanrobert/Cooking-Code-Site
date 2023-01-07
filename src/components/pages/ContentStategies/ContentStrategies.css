@@ -8,17 +8,21 @@
     max-width: 220rem;
     justify-content: center;
     padding: 0 20px;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 h2{
-    color:rgb(75, 36, 205);
+    color: rgb(4, 255, 50);
     font-size: 2.5rem;
 }
 
 .img-description-wrapper > h3{
-    color:rgb(75, 36, 205);
+    color: rgb(4, 255, 50);
     font-size: 2rem;
+}
+
+p{
+    color:#FFF
 }
 
 .header-paragraph{
@@ -28,7 +32,7 @@ h2{
 }
    
    .images{
-     height: 185px;
+     height: 11rem;
      width: 100%;
      border-top-left-radius: 8px;
      border-top-right-radius: 8px;

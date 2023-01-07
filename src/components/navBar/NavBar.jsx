@@ -10,11 +10,19 @@ function Navbar() {
   const closeMobileMenu = () => false;
   return (
     <nav className="nav">
-      <Link to="/" className="site-title" onClick={closeMobileMenu}>
+      <Link
+        to="/"
+        className="site-title"
+        id="site-title-id"
+        onClick={closeMobileMenu}
+      >
         👨‍🍳 Cooking Code
       </Link>
       <div className="menu-icon"></div>
-      <ul className={click ? "nav-menu activated" : "nav-menu deactivated"}>
+      <ul
+        className={click ? "nav-menu activated" : "nav-menu deactivated"}
+        onClick={handleClick}
+      >
         <CustomLink to="About">About</CustomLink>
         <CustomLink to="Skills">Skills</CustomLink>
         <CustomLink to="ContentStrategies">Content Strategies</CustomLink>

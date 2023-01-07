@@ -13,7 +13,7 @@ function Footer(props) {
         <div className="footer-first2">
           <div className="footer-column">
             <div>
-              <h1>👨‍🍳 Cooding Code</h1>
+              <h1>👨‍🍳 Cooking Code</h1>
             </div>
             <div className="footer-first-column">
               <a href="tel://+40744862118">
@@ -69,7 +69,8 @@ function Footer(props) {
             <Link className="remove-format-footer">
               <p>
                 {" "}
-                All right reserved <br /> © 👨‍🍳 Cooking Code
+                All right reserved <br />
+                <span className="right-reserved">© 👨‍🍳 Cooking Code</span>
               </p>
             </Link>
           </div>

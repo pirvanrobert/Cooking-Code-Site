@@ -5,7 +5,7 @@ import { DataSlider } from "./Slider/DataSlider";
 function ImageSlideShow() {
   return (
     <>
-      <h2>Few of my projects</h2>
+      <h2>Press the Image</h2>
       <ImageSlider slides={DataSlider} />
     </>
   );

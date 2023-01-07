@@ -7,7 +7,7 @@
   
   .footer {
     background-image: linear-gradient(to bottom, rgba(81, 174, 241, 0), rgb(75, 36, 205));
-    color: #ffffff;
+    color: rgb(4, 255, 50);
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -100,6 +100,9 @@
     }
   }
   
+  .right-reserved{
+    color: rgb(4, 255, 50);
+  }
   @media screen and (max-width: 1200px) {
     .footer-last-column > p {
       font-size: 14px;
@@ -173,6 +176,7 @@
       justify-content: center;
       height: 85vh;
       padding: 20px 0;
-      background-color: #151b54;
+      background-image: linear-gradient(to bottom, rgba(81, 174, 241, 0), rgb(75, 36, 205));
+      
     }
   }

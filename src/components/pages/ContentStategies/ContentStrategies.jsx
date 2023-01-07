@@ -10,8 +10,7 @@ function ContentStrategies() {
       <div>
         <h2 className="main-header">Contents Strategies</h2>
         <p className="header-paragraph">
-          We focus on ergonomics and meeting you where you are. It's only a
-          keystroke away.
+          We focus on developing your ideeas. Never give up to your dreams.
         </p>
 
         <div className="row flex-col-md">
@@ -53,7 +52,10 @@ function ContentStrategies() {
               <p>
                 By <span>Robert Pirvan </span> | 01 January 2023
               </p>
-              <h3>Success Steps For Your Personal Or Business</h3>
+              <h3>
+                The journey is hard, <br /> but with small steps you can touch
+                the sky
+              </h3>
             </div>
           </div>
         </div>
