@@ -1,14 +1,40 @@
 
+
 h4{
+    margin: 0;
+    padding: 2rem 0;
     color: rgb(4, 255, 50);
     font-size: 3rem;
 }
+
+.styled-p{
+    color: red;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-style{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 4rem;
+    height: 5rem;
+}
+
+.skills-card{
+    background: #1F1B42;
+    border-radius: 30px;    
+    width: 17rem;
+    padding: 30px 20px; 
+    margin-bottom: 5rem;
+}
+
+
 .skills-section-display{
-    height: 50vh;
+    margin-left: 5rem;
     display: grid;
     grid-template-areas: 
     'grid-col-1 grid-col-2 grid-col-3 grid-col-4';
-    gap: 5px;
     overflow: hidden;
 }
 
@@ -28,16 +54,16 @@ h4{
     grid-area: grid-col-4;
 }
 
-.img-style{
-    height: 12rem;
-    width:12rem;
-    object-fit: contain;
-}
 
-.skills-section-display > div {
-        margin-top: 3rem;
-        justify-content:space-around;
-    
+
+@media screen and (max-width: 1100px) {
+    .skills-section-display{
+        gap:2rem;
+        margin:0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and ( max-width: 768px) {
@@ -51,11 +77,9 @@ h4{
     }
 
     .skills-section-display > div {
-        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     } 
 
 }
@@ -68,29 +92,14 @@ h4{
     }
 
 
-    .skills-section-display{
-        grid-template-areas: 
-        'grid-col-1'
-        'grid-col-2'
-        'grid-col-3' 
-        'grid-col-4'
-        ;
-        gap:0;
-        margin: 0;
-        min-height: 150vh;
-    }
 
     .skills-section-display > div {
-        margin:0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
-    .css-img{
-        margin-left: 3rem;
-    }
+   
     .js-img{
         margin-right: 1.5rem;
     }

@@ -8,10 +8,12 @@ function ContentStrategies() {
   return (
     <section className="row section-cards ">
       <div>
-        <h2 className="main-header">Contents Strategies</h2>
-        <p className="header-paragraph">
-          We focus on developing your ideeas. Never give up to your dreams.
-        </p>
+        <div>
+          <h2 className="main-header">Contents Strategies</h2>
+          <p className="header-paragraph">
+            We focus on developing your ideeas. Never give up to your dreams.
+          </p>
+        </div>
 
         <div className="row flex-col-md">
           <div className="card">

@@ -4,7 +4,7 @@
 }
 
 .section-cards{
-    min-height: 110vh;
+    min-height: 100vh;
     max-width: 220rem;
     justify-content: center;
     padding: 0 20px;
@@ -12,6 +12,8 @@
 }
 
 h2{
+    margin: 0;
+    padding: 2rem 0;
     color: rgb(4, 255, 50);
     font-size: 2.5rem;
 }
@@ -77,9 +79,7 @@ p{
    
  @media screen and (max-width: 768px) {
     
-    .section-cards{
-        min-height: 250vh;
-    }
+  
    
     .flex-col-md{
         display: flex;
@@ -87,3 +87,4 @@ p{
         gap: 2rem;
     }
  }
+
